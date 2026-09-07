@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup  # 解析工具
 import time  # 用來暫停程式
 
 # ==== 設定區（建議放在迴圈外，只設定一次）====
-TOKEN = "輸入你的 bot token"
-CHAT_ID = "輸入你的 telegram id"
+TOKEN = "stocklisttest_bot"
+CHAT_ID = "7139263879"
 
 # 要爬的股票
 stock_list = ["1101", "2330", "1102"]
