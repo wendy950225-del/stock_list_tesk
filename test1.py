@@ -8,7 +8,7 @@ TOKEN = "輸入你的 bot token"
 CHAT_ID = "輸入你的 telegram id"
 
 # 要爬的股票
-stock_list = ["1101", "2330"]
+stock_list = ["1101", "2330", "1102"]
 
 # 可能的股價 class（漲/跌/平盤）
 price_classes = [
