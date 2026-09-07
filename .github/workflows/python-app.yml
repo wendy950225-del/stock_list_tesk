@@ -23,5 +23,8 @@ jobs:
           pip install requests
           pip install beautifulsoup4
 
-      - name: Run Python script
+       - name: Run Python script
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: python test1.py
