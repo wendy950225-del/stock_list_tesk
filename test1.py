@@ -1,7 +1,7 @@
 # 先導入後面會用到的套件
-import requests
-from bs4 import BeautifulSoup
-import time
+import os
+TOKEN = os.environ["TG_TOKEN"]
+CHAT_ID = os.environ["TG_CHAT_ID"]
 
 
 # ==== 設定區 ====
